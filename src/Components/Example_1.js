@@ -2,7 +2,7 @@ import React, { useState, Component } from 'react';
 
 
 // functional Component - useState
-export const Example = () => {
+export const Example_1 = () => {
   const [item, setItem] = useState(1);
   const incrementItem = () => setItem(item + 1);
   const decrementItem = () => setItem(item - 1);
@@ -17,7 +17,7 @@ export const Example = () => {
 
 
 // Class Component - useState
-export class Example_class extends Component {
+export class Example_class_1 extends Component {
   state = {
     item: 1
   }
