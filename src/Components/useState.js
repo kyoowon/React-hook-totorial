@@ -8,6 +8,7 @@ export const Example_1 = () => {
   const decrementItem = () => setItem(item - 1);
   return (
     <div>
+      <h1>useState - react hooks</h1>
         <h1>{item}</h1>
         <button onClick={incrementItem}>Increase</button>
         <button onClick={decrementItem}>Decrease</button>
@@ -25,6 +26,7 @@ export class Example_class_1 extends Component {
     const {item} = this.state;
     return (
       <div>
+      <h1>useState - Class Component</h1>
       <h1>{item}</h1>
         <button onClick={this.incrementItem}>Increase</button>
         <button onClick={this.decrementItem}>Decrease</button>
