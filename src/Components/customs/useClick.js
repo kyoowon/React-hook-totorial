@@ -6,14 +6,17 @@ const useClick = (onClick) => {
     if (typeof onClick !== 'function') {
       return;
     }
+    // so, It will only work when it is componenetDidMount. It work once.
     if (element.current) {
       element.current.addEventListener("click", onClick)
     }
+    // It whil only work when it is compoenentDidUnmount
     return () => {
       if (element.current) {
         element.current.removeEventListener("click", onClick)
       }
     }
+    // add dependency
   }, [])
   return typeof onClick !== "function" ? element : undefined;
 }
