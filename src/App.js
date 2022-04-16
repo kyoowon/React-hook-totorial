@@ -5,6 +5,7 @@ import {Example_4} from './Components/useEffect.js';
 import {Example_5} from './Components/customs/useTitle.js';
 import {Example_6} from './Components/useRef.js';
 import {Example_7} from './Components/customs/useClick.js';
+import {Example_8} from './Components/customs/useConfirm.js';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
       <Example_5></Example_5>
       {/* react custom hooks - useClick */}
       <Example_7></Example_7>
+      {/* react custom hooks - useClick */}
+      <Example_8></Example_8>
     </div>
   );
 }
