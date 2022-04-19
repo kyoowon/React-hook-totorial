@@ -12,10 +12,11 @@ const usePreventLeave = () => {
     return { enablePrevet, disablePrevet}
 }
 
-export function Exmaple_9() {
+export function Example_9() {
     const {enablePrevet, disablePrevet} = usePreventLeave();
     return (
         <div>
+            <h1>PreventLeave</h1>
             <button onClick={enablePrevet}>Protect</button>
             <button onClick={disablePrevet}>Unprotect</button>
         </div>

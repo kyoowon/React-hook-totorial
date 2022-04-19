@@ -6,7 +6,8 @@ import {Example_5} from './Components/customs/useTitle.js';
 import {Example_6} from './Components/useRef.js';
 import {Example_7} from './Components/customs/useClick.js';
 import {Example_8} from './Components/customs/useConfirm.js';
-import {Exmaple_9} from './Components/customs/usePreventLeave.js';
+import {Example_9} from './Components/customs/usePreventLeave.js';
+import {Example_10} from './Components/customs/useBeforeLeave.js';
 
 function App() {
   return (
@@ -29,7 +30,9 @@ function App() {
       {/* react custom hooks - useConfirm */}
       <Example_8></Example_8>
       {/* react custom hooks - usePreventLeave */}
-      <Exmaple_9></Exmaple_9>
+      <Example_9></Example_9>
+      {/* react custom hooks - useBeforeLeave */}
+      <Example_10></Example_10>
     </div>
   );
 }
