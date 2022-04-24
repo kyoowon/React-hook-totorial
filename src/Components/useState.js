@@ -44,7 +44,7 @@ export class Example_class_1 extends Component {
   decrementItem = () => {
     this.setState(state => {
       return {
-        item: state.item + 1
+        item: state.item - 1
       }
     })
   }

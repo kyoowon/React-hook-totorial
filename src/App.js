@@ -8,6 +8,7 @@ import {Example_7} from './Components/customs/useClick.js';
 import {Example_8} from './Components/customs/useConfirm.js';
 import {Example_9} from './Components/customs/usePreventLeave.js';
 import {Example_10} from './Components/customs/useBeforeLeave.js';
+import {Example_11} from './Components/useReducer.js';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <Example_4></Example_4>
       {/* react hooks - useRef */}
       <Example_6></Example_6>
+      {/* react hooks - useReducer */}
+      <Example_11></Example_11>
       {/* react custom hooks - useInput */}
       <Example_2></Example_2>
       {/* react custom hooks - useTabs */}
