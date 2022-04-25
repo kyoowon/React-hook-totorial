@@ -9,6 +9,7 @@ import {Example_8} from './Components/customs/useConfirm.js';
 import {Example_9} from './Components/customs/usePreventLeave.js';
 import {Example_10} from './Components/customs/useBeforeLeave.js';
 import {Example_11} from './Components/useReducer.js';
+import {Example_12} from './Components/useContextExample.js';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Example_6></Example_6>
       {/* react hooks - useReducer */}
       <Example_11></Example_11>
+      <Example_12></Example_12>
       {/* react custom hooks - useInput */}
       <Example_2></Example_2>
       {/* react custom hooks - useTabs */}
